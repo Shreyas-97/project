@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ClassyBooking</title>
+	<style type="text/css">
+		body{
+			background-image: url(img5.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+
+		}
+		.content:hover{
+			background-image: url(img6.jpg);
+			background-repeat: no-repeat;
+		}
+		.content{
+			border: 2px solid black;
+			margin: 40px 380px;
+			padding: 20px 50px;
+			text-align: left;
+			background-color: black; 
+			opacity: 0.5;
+			color: white;
+		}
+		label{
+			width: 200px;
+			color: white;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1 style="text-align: center;">Classy Booking Form</h1>
+		<div class="content">
+			<form>
+				<label style="float: left;">FullName:</label><input type="text" name="FullName"required=""><br><br>
+				<label style="float: left;">Email Id:</label><input type="email id" name="email" required=""><br><br>
+				<label style="float: left;">PhoneNumber:</label><input type="number" name="number" maxlength="10" required=""><br><br>
+				<label style="float: left;" >Departure date/Time*</label><input type="date" name="date" required=""><input type="Time" name="Time" required=""><br><br>
+				<label style="float: left;" >Return date/Time*</label><input type="date" name="date" required=""><input type="Time" name="Time" required=""><br><br>
+				<label style="float: left;">PickupAddress</label><textarea></textarea><br><br>
+				<label style="float: left;">DestinationAddress</label><textarea></textarea><br><br>
+
+
+				<label style="float: left;" >JourneyType*</label><select>
+					<option>sleeper</option>
+					<option>semisleeper</option>
+					<option>normalseat</option>
+				</select><br><br>
+				<label style="float: left;">Number of passenger</label><select>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+				</select><br><br>
+				<label style="float: left;">AdditionalMessage:</label><textarea></textarea><br><br>
+				<input type="submit" name="submit" value="SUBMIT" style="color: black" >	
+			</form>
+			
+		</div>
+	</div>
+
+</body>
+</html>

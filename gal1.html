@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gallery</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+	
+/*--SAP--*/
+.sap_tabs {
+    clear: both;
+    padding: 0;
+    text-align: center;
+}
+.tab_box{
+	background:#fd926d;
+	padding: 2em;
+}
+.top1{
+	margin-top: 2%;
+}
+.resp-tabs-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2em;
+    text-align: center;
+    display: inline-block;
+}
+.resp-tab-item {
+    color: #111;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin:0em 1em;
+    text-align: center;
+    list-style: none;
+    outline: none;
+    padding: 0.6em 1.6em;
+	background:#fff;
+    border: 1px solid #000;
+    float: left;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.resp-tab-active, .resp-tab-item:hover {
+    text-shadow: none;
+    background: #9e0022;
+    color: #fff;
+}
+.resp-tabs-container {
+	padding: 0px;
+	clear: left;	
+}
+h2.resp-accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+.resp-tab-content {
+	display: none;
+}
+.resp-content-active, .resp-accordion-active {
+   display: block;
+}
+.tab_img{
+	padding:2em 0 0;
+	display: block;
+}
+.portfolio-grids img.img-responsive {
+    width: 100%; 
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+    transition: .5s all;
+}
+.gallery-grid {
+    transition: .5s all;
+    overflow: hidden;
+	cursor: pointer;
+}
+.gallery-grid:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+</style>
+<body>
+	<div class="portfolio" id="gallery">
+
+		<h3 class="title">Our Gallery</h3>
+
+		<div class="sap_tabs">
+			<div id="horizontalTab">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item"><span>All</span></li>
+					<li class="resp-tab-item"><span>Pets 1</span></li>
+					<li class="resp-tab-item"><span>Pets 2</span></li>
+					<li class="resp-tab-item"><span>Pets 3</span></li>
+				</ul>
+				<div class="clearfix"> </div>
+				<div class="resp-tabs-container">
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g1.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g1.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src= data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g2.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g10.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g10.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g4.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g4.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6  portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g5.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g5.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g6.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g6.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g8.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g8.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g11.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g11.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g1.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g1.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g10.jpg'data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g10.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g8.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g8.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g11.jpg ' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g11.jpg 'class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g5.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g5.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg'  data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g6.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g6.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tab-1 resp-tab-content">
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g2.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g2.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g6.jpg' data-big-src='images/g6.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g4.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g4.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-6 portfolio-grids">
+							<div class="gallery-grid">
+								<img src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg' data-big-src='https://p.w3layouts.com/demos_new/template_demo/09-01-2018/lovely_pets-demo_Free/1144690614/web/images/g7.jpg' class="img-responsive" alt=" " />
+								<p style='opacity:0;display:none'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

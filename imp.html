@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>client</title>
+			<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="s.css">
+<style type="text/css" >
+
+
+	.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+</style>
+</head>
+<body>
+<div class="test" >
+		<div class="container">
+
+			<h2 class="title" style="text-align: center;font-size: 60px;">OUR CLIENTS</h2>
+
+			<div class="carousel slide" data-ride="carousel" id="id1">
+				<ol class="carousel-indicators">
+					<li data-target="#idl" data-slide-to="0" class="active"><img class="img-responsive " src="ian1.jpg" alt="">
+					</li>
+					<li data-target="#idl" data-slide-to="1"><img class="img-responsive" src="jack1.jpg" alt="">
+					</li>
+					<li data-target="#id1" data-slide-to="2"><img class="img-responsive" src="t3.jpg" alt="">
+					</li>
+				</ol>
+				<div class="carousel-inner text-center">
+					<div class="item active">
+						<blockquote>
+							<div class="row">
+								<div class=" left">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo!</p>
+									<h5>--Ian  Somerhalder</h5>
+								</div>
+
+
+							</div>
+						</blockquote>
+					</div>
+					<div class="item">
+						<blockquote>
+							<div class="row">
+								<div class=" left">
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+									<h5>--Jacqueline sato</h5>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+					<div class="item">
+						<blockquote>
+							<div class="row">
+								<div class=" left">
+
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+										aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+									<h5>--Rosey</h5>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+
+</body>
+</html>

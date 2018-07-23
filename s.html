@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+			.container{
+				margin:40px 400px; 
+			}
+			body{
+				background-image: url(img2.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		.content{
+			display: flex;
+		}
+		.register{
+			border: 2px solid black;
+			border-radius: 10px;
+			background-color: black;
+			opacity: 0.5;
+			color: white;
+			padding: 20px 50px;
+
+		}
+		
+		.login{
+			border: 2px solid black;
+			border-radius: 10px;
+			background-color: black;
+			opacity: 0.5;
+			color: white;
+			margin-left: 50px;
+			padding: 20px 50px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h1 style="text-align: center;">UNIQUE LOGIN FORM</h1>
+		<div class="content">
+			<div class="register">
+			<form>
+				<h2 style="color:white">SIGN IN FORM</h2>
+				<input type="username" name="username" placeholder="USERNAME" required=""><br><br>
+				<input type="Password" name="Password" placeholder="PASSWORD" required=""><br><br>
+				<input type="submit" name="submit" value="SIGN IN">
+				<input type="submit" name="submit" value="RESET">
+			</form>
+			</div>
+			<div class="login">
+			<form>
+				<h2 style="color:white">SIGN UP FORM</h2>
+				<input type="username" name="username" placeholder="USERNAME" required=""><br><br>
+				<input type="number" name="number" placeholder="PHONE" maxlength="10" required=""><br><br>
+				<input type="EmailId" name="EmailId" placeholder="Enter your email" required=""><br><br>
+				<input type="Password" name="Password"placeholder="PASSWORD" required=""><br><br>
+				<input type="submit" name="submit" value="REGISTER">
+			</form>
+			</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+		
+	.form-horizontal{
+		border: 2px solid black;
+		border-radius: 10px;
+		margin: 20px 200px;
+		padding-top: 20px;
+		padding-right: 20px;
+		color: black;
+		opacity: 1.5;
+		box-shadow: 2px 2px 8px 2px green;
+
+
+	}
+	@media only screen and (max-width: 600px){
+			div{display:block;}
+		}
